@@ -8,8 +8,8 @@ class Transfer
     @status = status
   end
   
-  def sender_valid?(sender)
-    sender.valid?
+  def valid?(sender,receiver)
+    sender.valid? && receiver.valid? ? true : false
   end
   
   
