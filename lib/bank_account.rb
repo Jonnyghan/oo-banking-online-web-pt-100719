@@ -15,8 +15,8 @@ end
   
 
 def deposit(amount)
-  binding.pry 
-  newbal = balance + amount
+  #binding.pry 
+  #newbal = balance + amount
 end
 
 
