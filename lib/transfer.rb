@@ -8,4 +8,8 @@ class Transfer
     @status = status
   end
   
+  def valid?
+    sende
+  
+  
 end
