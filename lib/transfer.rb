@@ -12,6 +12,8 @@ class Transfer
     sender.valid? && receiver.valid? ? true : false
   end
   
-  
+  def execute_transaction
+   # if self.valid? == true && status == pending
+  end
   
 end
