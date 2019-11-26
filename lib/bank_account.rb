@@ -16,7 +16,7 @@ end
 
 def deposit(amount)
   #binding.pry 
-  balance = balance + amount
+  balance = balance += amount
 end
 
 
