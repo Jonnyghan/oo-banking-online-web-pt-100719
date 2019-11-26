@@ -27,5 +27,9 @@ def valid?
    self.balance > 0 && self.status == "open" ? true : false
 end
 
+def close_account
+  self.status = "closed"
+end
+
 
 end
