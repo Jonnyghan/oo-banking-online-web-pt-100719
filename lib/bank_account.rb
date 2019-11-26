@@ -24,7 +24,7 @@ def display_balance
 end
 
 def valid?
-self.status == true? (true : false)
+self.status == true?true : false
 end
 
 
