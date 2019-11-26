@@ -9,6 +9,11 @@ def initialize(name, balance = 1000, status = "open")
   @status = status
 end
 
+def balance=(amount)
+  @balance = amount
+end
+  
+
 def deposit(amount)
   binding.pry 
   newbal = balance + amount
